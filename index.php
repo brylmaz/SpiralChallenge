@@ -1,6 +1,8 @@
 <?php
 
-error_reporting(0);
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
 
 
@@ -11,7 +13,7 @@ require __DIR__ . '/Modal.php';
 require __DIR__ . '/controller.php';
 require __DIR__ . '/route.php';
 
-  print_r("expression");
+ 
 
 Route::run('/getLayout', 'spiralcontroller@getLayout','post');
 Route::run('/getValueOfLayout', 'spiralcontroller@getValueOfLayout','post');
