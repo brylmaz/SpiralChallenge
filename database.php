@@ -12,9 +12,9 @@ class Database
     private  $db;
 
     private function connect() {
-        $this->host = 'localhost';
-        $this->username = 'root';
-        $this->password = '';
+        $this->host = 'us-cdbr-east-04.cleardb.com';
+        $this->username = 'bd62a2a6970970';
+        $this->password = '1794db72';
         $this->db = 'integer_spiral_db';
         try {
             $db = new \PDO('mysql:host='. $this->host .';dbname='.$this->db , $this->username, $this->password);
@@ -38,3 +38,4 @@ class Database
 
 
 
+//mysql://bd62a2a6970970:1794db72@us-cdbr-east-04.cleardb.com/heroku_2b9ee154d92e8d8?reconnect=true
