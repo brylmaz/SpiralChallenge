@@ -2,7 +2,7 @@
 namespace App\controllers;
 
 use App\Controller;
-use App\services\spiralService;
+use App\services\spiralservice;
 use App\model\Spiral;
 
 class SpiralController extends Controller {
@@ -38,7 +38,7 @@ class SpiralController extends Controller {
       $X = htmlspecialchars(round($post['X']));
       $Y = htmlspecialchars(round($post['Y']));
 
-      $spiralService = new spiralService();
+      $spiralService = new spiralservice();
       $resultArray = $spiralService->createSpiral($X, $Y);
       $spiralService->print2DGrid ($resultArray);
 

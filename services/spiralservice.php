@@ -4,7 +4,7 @@ namespace App\services;
 
 
 
-class spiralService  {
+class spiralservice  {
 	
   function __construct() {
 
