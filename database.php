@@ -15,7 +15,7 @@ class Database
         $this->host = 'us-cdbr-east-04.cleardb.com';
         $this->username = 'bd62a2a6970970';
         $this->password = '1794db72';
-        $this->db = 'integer_spiral_db';
+        $this->db = 'heroku_2b9ee154d92e8d8';
         try {
             $db = new \PDO('mysql:host='. $this->host .';dbname='.$this->db , $this->username, $this->password);
             $db->exec("set names utf8");
