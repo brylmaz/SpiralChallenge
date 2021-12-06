@@ -6,7 +6,7 @@ namespace App\tests;
 class spiralControllerTest extends \PHPUnit\Framework\TestCase{
 	
 	public function testgetValueOfLayout(){
-		$url ="http://localhost/integerSpiral/getValueOfLayout";
+		$url ="https://spiralchallenge.herokuapp.com/getValueOfLayout";
 		$postData = json_encode(array(
 			"X"=>0,
 			"Y"=>3,
