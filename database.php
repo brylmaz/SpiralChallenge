@@ -38,4 +38,3 @@ class Database
 
 
 
-//mysql://bd62a2a6970970:1794db72@us-cdbr-east-04.cleardb.com/heroku_2b9ee154d92e8d8?reconnect=true
